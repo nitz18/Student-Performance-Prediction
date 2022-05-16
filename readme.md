@@ -56,7 +56,7 @@ For example, if your mission is to predict G3, you need to replace the original 
 Required training and test sets
 2 datasets are provided and required: one training set (for you to use as you like for training, validation, cross-validation, etc.); one test set to use on your final model, to estimate its performance on unknowns.
 
-###Your Missions
+### Your Missions
 
 You have 3 missions (3 ML problems to solve). This applies to both the regression and the classification problem:
 1. Predict first-period academic performance without any prior academic performance data: remove the G2 and G3 columns from the original dataset, then predict G1.
