@@ -1,13 +1,13 @@
-Student Performance Dataset
+# Student Performance Dataset
 
 
-Summary 
+### Summary 
 
 The problem addressed is to predict students’ academic performance in secondary schools (and to then use the results to intervene and help at-risk students do better). The data is from students in secondary education of two Portuguese schools. The data attributes include student grades, demographic, social and school related features, and was collected by using school reports and questionnaires. The dataset provided for this project measures the students’ performance in the subject of Portuguese language (por).
 Problem type: Classification (5-class)* or Regression.
 For individual projects, choose either regression or classification to work on. For team projects, do both regression and classification.
 
-Data Description
+### Data Description
 
 The full dataset is posted on the UCI website (includes mathematics and Portuguese topics). For this project we will use the only the Portuguese dataset. The number of input attributes per data point is 30, not counting the grade features (Gx). 13 of the attributes are integer valued, 13 are binary-valued categorical, and 4 are multi-valued categorical. There are no missing values. In detail:
 
@@ -51,12 +51,13 @@ The following grades are related with the course subject; some you will use as f
 32. G2 - second period grade (numeric: from 0 to 20)
 33. G3 - final grade (numeric: from 0 to 20, output target)
 
-*For the classification problem, convert the output variable from 𝑦 ∈ [0,20] into a 5-class categorical value (I, II, III, IV, V) based on the rules below [2]:
-For example, if your mission is to predict G3, you need to replace the original G3 column with a new G3 column based on the above mapping, and use the new G3 as your output value. If you are using G1 as a feature, then leave G1 in numeric form, 𝑥&% ∈ [0,20].
+For the classification problem, convert the output variable from 𝑦 ∈ [0,20] into a 5-class categorical value (I, II, III, IV, V) based on the rules below:
+For example, if your mission is to predict G3, you need to replace the original G3 column with a new G3 column based on the above mapping, and use the new G3 as your output value. If you are using G1 as a feature, then leave G1 in numeric form.
 Required training and test sets
 2 datasets are provided and required: one training set (for you to use as you like for training, validation, cross-validation, etc.); one test set to use on your final model, to estimate its performance on unknowns.
 
-Your Missions
+###Your Missions
+
 You have 3 missions (3 ML problems to solve). This applies to both the regression and the classification problem:
 1. Predict first-period academic performance without any prior academic performance data: remove the G2 and G3 columns from the original dataset, then predict G1.
  p. 10 of 15
